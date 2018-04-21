@@ -1,0 +1,20 @@
+{
+  "General": {
+    "BotName": "",
+    "Port": 3000,
+    "FiatCurrency": "USD",
+    "SslEnabled": "false",
+    "LogLevel": "info",
+    "PtDataSyncSecs": 15,
+    "ConfigSyncSecs": 5
+  },
+  "ProfitTrailer": {
+    "WebUrl": "http://localhost:8081",
+    "WebPassword": "letmein",
+    "License": "abc123",
+    "Exchange": "BINANCE"
+  },
+  "Transfers": {
+    "12/31/2017": 0.01
+  }
+}
