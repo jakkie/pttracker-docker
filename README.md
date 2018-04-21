@@ -1,7 +1,7 @@
 # pttracker-docker
 Pt Tracker Docker
 
-Compatible with Pt Tracker bot version : v2.1
+Compatible with Pt Tracker version : v2.1
 https://github.com/bTayFla/PtTracker/wiki
 
 ## Install Docker
