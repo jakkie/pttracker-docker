@@ -2,7 +2,7 @@
 
 Pt Tracker Docker
 
-Compatible with Pt Tracker version : v2.1.1
+Compatible with Pt Tracker version : v2.2
 `https://github.com/bTayFla/PtTracker/wiki`
 
 ## Install Docker
@@ -43,10 +43,10 @@ http://localhost:3000
 docker build -t pttracker .
 ```
 
-- To build with a specific Pt Tracker version from version v2.1.1 and later. Just change the Pt Tracker version to the version you want. To see which versions are available go to `https://github.com/bTayFla/PtTracker/releases`
+- To build with a specific Pt Tracker version from version v2.2 and later. Just change the Pt Tracker version to the version you want. To see which versions are available go to `https://github.com/bTayFla/PtTracker/releases`
 
 ```bash
-docker build -t pttracker --build-arg PTTRACKER_VERSION=2.1.1 .
+docker build -t pttracker --build-arg PTTRACKER_VERSION=2.2 .
 ```
 
 ### Running Pt Tracker with docker-compose
