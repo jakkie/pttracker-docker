@@ -2,7 +2,7 @@
 
 Pt Tracker Docker
 
-Compatible with Pt Tracker version : v2.2
+Compatible with Pt Tracker version : v2.2.5
 `https://github.com/bTayFla/PtTracker/wiki`
 
 ## Install Docker
@@ -24,7 +24,7 @@ Compatible with Pt Tracker version : v2.2
 - To Run Container and replace <your path> with the full path where the PtTracker.json file is.
 
 ```bash
-docker run -d -p 3000:3000 -v <your path>/PtTracker.json:/app/PtTracker/PtTracker.json jakkie/pttracker-docker
+docker run -d -p 3000:3000 -v <your path>/PtTracker.json:/app/linux/PtTracker/PtTracker.json jakkie/pttracker-docker
 ```
 
 - After Pt Tracker is running browse to the url example `http://your-ip:3000`

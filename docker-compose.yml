@@ -6,7 +6,7 @@ services:
     build: .
     container_name: pttracker
     volumes:
-      - ./PtTracker.json:/app/PtTracker/PtTracker.json
+      - ./PtTracker.json:/app/linux/PtTracker/PtTracker.json
     restart: always
     ports:
       - "3000:3000"
